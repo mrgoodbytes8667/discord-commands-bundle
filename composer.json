@@ -1,0 +1,28 @@
+{
+    "name": "mrgoodbytes8667/discord-commands-bundle",
+    "description": "A few random Discord application commands",
+    "type": "symfony-bundle",
+    "license": "CC-BY-NC-4.0",
+    "require": {
+        "php": "^8.0",
+        "mrgoodbytes8667/discord-client-bundle": "^0.3.2"
+    },
+    "require-dev": {
+        "symfony/test-pack": "^1.0.9"
+    },
+    "authors": [
+        {
+            "name": "MrGoodBytes",
+            "email": "bytes@goodbytes.live"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Bytes\\DiscordCommandsBundle\\": "src/",
+            "Bytes\\DiscordCommandsBundle\\Tests\\": "Tests/"
+        }
+    }
+}
