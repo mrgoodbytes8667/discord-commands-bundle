@@ -5,7 +5,7 @@
     "license": "CC-BY-NC-4.0",
     "require": {
         "php": "^8.0",
-        "mrgoodbytes8667/discord-client-bundle": "^0.3.2"
+        "mrgoodbytes8667/discord-client-bundle": "^0.3.3"
     },
     "require-dev": {
         "symfony/test-pack": "^1.0.9"
