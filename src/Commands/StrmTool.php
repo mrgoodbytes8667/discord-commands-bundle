@@ -23,7 +23,7 @@ class StrmTool implements SlashCommandInterface
     public static function createCommand(): ApplicationCommand
     {
         return ChatInputCommand::createChatCommand(static::getDefaultIndexName(), 'Have you heard about Strm.Tool?', [
-            Option::create(ACOT::string(), 'haveiheardofstrmtool', 'Yes or No?', true, [
+            Option::create(ACOT::STRING, 'haveiheardofstrmtool', 'Yes or No?', true, [
                 ApplicationCommandOptionChoice::create('No'),
                 ApplicationCommandOptionChoice::create('Yes'),
             ])
