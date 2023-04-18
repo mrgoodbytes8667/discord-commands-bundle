@@ -5,7 +5,7 @@
     "license": "CC-BY-NC-4.0",
     "require": {
         "php": "^8.1",
-        "mrgoodbytes8667/discord-client-bundle": "0.15.x-dev"
+        "mrgoodbytes8667/discord-client-bundle": "^0.15 | ^0.16"
     },
     "require-dev": {
         "mrgoodbytes8667/test-common": ">=0.0.23",
